@@ -2,7 +2,7 @@
   "name": "running-path-calculator",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://FinnWc.github.io/Projects",
+  "homepage": "https://FinnWc.github.io/running-path-calculator",
 
   "dependencies": {
     "@mapbox/polyline": "^1.2.1",
