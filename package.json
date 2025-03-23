@@ -2,6 +2,8 @@
   "name": "running-path-calculator",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://FinnWc.github.io/running-path-calculator",
+
   "dependencies": {
     "@mapbox/polyline": "^1.2.1",
     "@testing-library/dom": "^10.4.0",
@@ -20,7 +22,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predepoy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
